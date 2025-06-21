@@ -18,9 +18,9 @@ A Model Context Protocol (MCP) server implementation for Google Analytics 4 data
 ## Setup
 
 - **Install dependencies:**
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 - **Enable the Google Analytics Data API:**
     - In the Google Cloud Console, navigate to APIs & Services → Library
@@ -77,10 +77,10 @@ A Model Context Protocol (MCP) server implementation for Google Analytics 4 data
 
 - **Configure environment variables:**
    Create a `.env` file with the following variables:
-   ```env
-   GOOGLE_APPLICATION_CREDENTIALS=path/to/your/service-account-key.json
-   GA4_PROPERTY_ID=your-ga4-property-id
-   ```
+```env
+GOOGLE_APPLICATION_CREDENTIALS=path/to/your/service-account-key.json
+GA4_PROPERTY_ID=your-ga4-property-id
+```
 
 ## Usage
 
